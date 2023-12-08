@@ -5,12 +5,19 @@ Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsuper
 Use the following links to download SAMPLER represeantios of:
 
 -FFPE TCGA BRCA WSIs:
+
 -FFPE TCGA lung WSIs (LUAD and LUSC):
+
 -FFPE TCGA RCC WSIs (KIRC,KIRP, and KICH):
+
 -Frozen TCGA BRCA WSIs:
+
 -Frozen TCGA lung WSIs (LUAD and LUSC):
+
 -Frozen TCGA RCC WSIs (KIRC,KIRP, and KICH):
+
 -Frzoen CPTAC BRCA WSIs:
+
 -Frozen CPTAC lung WSIs (LUAD and LSCC):
 
 
