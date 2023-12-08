@@ -1,6 +1,8 @@
 # SAMPLER: Unsupervised representations for rapid analysis of whole slide tissue images
 Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsupervised representations for rapid analysis of whole slide tissue images" [https://www.biorxiv.org/content/10.1101/2023.08.01.551468v1]. We provide exmaples how to use it and share SAMPLER represeantions of frozen and FFPE images of breast cancer (BRCA), non-small cell lung cancer (NSCLC), and renal cell carcinoma (RCC) whole slide images (WSIs) of TCGA, as well as BRCA and NSCLC WSIs of CPTAC.
 
+![alt text](https://github.com/TheJacksonLaboratory/SAMPLER/blob/main/Main%20figure%201.pdf)
+
 # Downloading SAMPLER reprsenations:
 Use the following links to download SAMPLER represeantios of:
 
