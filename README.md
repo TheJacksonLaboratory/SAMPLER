@@ -24,5 +24,9 @@ Use the following links to download SAMPLER represeantios of:
 
 
 # Using SAMPLER:
-The following Jupyter notebook explains computing SAMPLER represeantions from tile features, building SAMPLER-based predictive models, and generating SAMPLER heatmaps.
+The easiest way to use SAMPLER is to copy the SAMPLER.py file into the python code directory and load it with "import". Alternatively, clone this code and run setup.py in the SAMPLER folder. Most of SAMPLER's helper functions are for creating attention maps. If only SAMPLER representations are needed, they can be created using a single line of code:
+
+wsi_sampler=np.ravel(np.percentile(X,pers,axis=0)).
+
+X is the WSI feature matrix where rows are tiles and columns are features. pers are the percentiles that comprise SAMPLER represenations. We used tendeciles, i.e., pers=[5,15,25,...,95], but higher/lower resolutions can be considered. The SAMPLER_example Jupyter notebook provides examples for computing SAMPLER represeantions from tile features, building SAMPLER-based predictive models, and generating SAMPLER attention maps.
 
