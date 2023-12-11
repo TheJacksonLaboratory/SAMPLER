@@ -6,7 +6,7 @@ Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsuper
 # Downloading SAMPLER reprsenations:
 Use the following links to download SAMPLER representations of:
 
--FFPE TCGA BRCA WSIs:
+-FFPE TCGA BRCA WSIs: https://zenodo.org/records/10359808
 
 -FFPE TCGA lung WSIs (LUAD and LUSC):
 
