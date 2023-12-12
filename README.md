@@ -31,7 +31,7 @@ Use the following links to download SAMPLER representations of:
 
 
 # Using SAMPLER:
-The easiest way to use SAMPLER is to copy the "SAMPLER.py" file into the main folder of the python code and load it with "import". Alternatively, clone this repository and run setup.py in the SAMPLER folder. Most of SAMPLER's helper functions are for creating attention maps. If only SAMPLER representations are needed, they can be created using a single line of code:
+The easiest way to use SAMPLER is to copy the "SAMPLER.py" file into the main folder of the python code and load it with "import". SAMPLER only uses basic functions in os, numpy, scipy, and pickle packages, and is not sensitive to the exact version of the isntalled package. Alternatively, clone this repository and run setup.py in the SAMPLER folder. Most of SAMPLER's helper functions are for creating attention maps. If only SAMPLER representations are needed, they can be created using a single line of code:
 
 wsi_sampler=np.ravel(np.percentile(X,pers,axis=0)).
 
