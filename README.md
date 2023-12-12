@@ -6,9 +6,9 @@ Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsuper
 # Downloading SAMPLER reprsenations:
 Use the following links to download SAMPLER representations of:
 
--FFPE TCGA BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10359808
+-FFPE TCGA-BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10359808
 
--Frozen TCGA BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360086
+-Frozen TCGA-BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360086
 
 -FFPE and Frozen TCGA-LUAD WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360102
 
