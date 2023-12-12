@@ -3,7 +3,7 @@ Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsuper
 
 ![SAMPLER overview](https://github.com/TheJacksonLaboratory/SAMPLER/blob/main/mainfig1.png)
 
-# Downloading SAMPLER reprsenations
+# Downloading SAMPLER representations
 Use the following links to download SAMPLER representations of:
 
 -FFPE TCGA-BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10359808
