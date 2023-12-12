@@ -6,19 +6,17 @@ Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsuper
 # Downloading SAMPLER reprsenations:
 Use the following links to download SAMPLER representations of:
 
--FFPE TCGA BRCA WSIs: https://zenodo.org/records/10359808
+-FFPE TCGA BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10359808
+-Frozen TCGA BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360086
+-FFPE and Frozen TCGA-LUAD WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360102
+-FFPE and Frozen TCGA-LUSC WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360117
+-FFPE and Frozen TCGA-KIRC WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360119
+-FFPE and Frozen TCGA-KIRP WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360125
+-FFPE and Frozen TCGA-KICH WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360131
 
--FFPE TCGA lung WSIs (LUAD and LUSC):
+-FFPE TCGA-lung (LUAD and LUSC) WSIs using the single-scale tile-level features provided in [1]: https://zenodo.org/records/10360135
 
--FFPE TCGA RCC WSIs (KIRC,KIRP, and KICH):
-
--Frozen TCGA BRCA WSIs:
-
--Frozen TCGA lung WSIs (LUAD and LUSC):
-
--Frozen TCGA RCC WSIs (KIRC,KIRP, and KICH):
-
--Frzoen CPTAC BRCA WSIs:
+-CPTAC BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360143
 
 -Frozen CPTAC lung WSIs (LUAD and LSCC):
 
@@ -32,4 +30,8 @@ X is the WSI feature matrix where rows are tiles and columns are features. pers 
 
 
 We have provided a Jupyter notebook provides example for computing SAMPLER represeantions from tile features, building SAMPLER-based predictive models, and generating SAMPLER attention maps at https://zenodo.org/records/10346576.
+
+# References
+
+[1] https://github.com/hustvl/MMIL-Transformer
 
