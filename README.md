@@ -35,7 +35,7 @@ The easiest way to use SAMPLER is to copy the "SAMPLER.py" file into the main fo
 
 wsi_sampler=np.ravel(np.percentile(X,pers,axis=0)).
 
-X is the WSI feature matrix where rows are tiles and columns are features. pers are the percentiles that comprise SAMPLER represenations. We used ten deciles, i.e., pers=[5,15,25,...,95], but higher/lower resolutions can be considered. If you have the SAMPLER package installed (or copied) SAMPLER.SAMPLERrep(X) computes the SAMPLER represenation.
+X is the WSI feature matrix where rows are tiles and columns are features. pers are the percentiles that comprise SAMPLER represenations. We used ten deciles, i.e., pers=[5,15,25,...,95], but higher/lower resolutions can be considered. If you have the SAMPLER package installed (or copied) SAMPLER.SAMPLERrep(X) computes the SAMPLER representation.
 
 
 We have provided a Jupyter notebook example for computing SAMPLER represeantions from tile features, building SAMPLER-based predictive models, and generating SAMPLER attention maps at https://zenodo.org/records/10346576.
