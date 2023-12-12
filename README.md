@@ -22,7 +22,7 @@ Use the following links to download SAMPLER representations of:
 
 -FFPE TCGA-lung (LUAD and LUSC) WSIs using the single-scale tile-level features provided in [2]: https://zenodo.org/records/10360135
 
--CPTAC BRCA-WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360143
+-CPTAC-BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360143
 
 -CPTAC-LUAD WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360245
 
