@@ -7,18 +7,24 @@ Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsuper
 Use the following links to download SAMPLER representations of:
 
 -FFPE TCGA BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10359808
+
 -Frozen TCGA BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360086
+
 -FFPE and Frozen TCGA-LUAD WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360102
+
 -FFPE and Frozen TCGA-LUSC WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360117
+
 -FFPE and Frozen TCGA-KIRC WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360119
+
 -FFPE and Frozen TCGA-KIRP WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360125
+
 -FFPE and Frozen TCGA-KICH WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360131
 
 -FFPE TCGA-lung (LUAD and LUSC) WSIs using the single-scale tile-level features provided in [1]: https://zenodo.org/records/10360135
 
 -CPTAC BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360143
 
--Frozen CPTAC lung WSIs (LUAD and LSCC):
+-CPTAC LUAD WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360245
 
 
 # Using SAMPLER:
