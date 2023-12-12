@@ -1,5 +1,5 @@
 # SAMPLER: Unsupervised representations for rapid analysis of whole slide tissue images
-Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsupervised representations for rapid analysis of whole slide tissue images" [https://www.biorxiv.org/content/10.1101/2023.08.01.551468v1]. We provide exmaples how to use it and share SAMPLER represeantions of frozen and FFPE breast cancer (BRCA), non-small cell lung cancer (NSCLC), and renal cell carcinoma (RCC) whole slide images (WSIs) of TCGA, as well as BRCA and NSCLC WSIs of CPTAC.
+Here we provide the code associated with the SAMPLER manuscript"SAMPLER: Unsupervised representations for rapid analysis of whole slide tissue images" [1]. We provide exmaples how to use it and share SAMPLER represeantions of frozen and FFPE breast cancer (BRCA), non-small cell lung cancer (NSCLC), and renal cell carcinoma (RCC) whole slide images (WSIs) of TCGA, as well as BRCA and NSCLC WSIs of CPTAC.
 
 ![SAMPLER overview](https://github.com/TheJacksonLaboratory/SAMPLER/blob/main/mainfig1.png)
 
@@ -20,11 +20,14 @@ Use the following links to download SAMPLER representations of:
 
 -FFPE and Frozen TCGA-KICH WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360131
 
--FFPE TCGA-lung (LUAD and LUSC) WSIs using the single-scale tile-level features provided in [1]: https://zenodo.org/records/10360135
+-FFPE TCGA-lung (LUAD and LUSC) WSIs using the single-scale tile-level features provided in [2]: https://zenodo.org/records/10360135
 
 -CPTAC BRCA WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360143
 
 -CPTAC LUAD WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360245
+
+-CPTAC LSCC WSIs using an inceptionV3 backbone pretrained on imagenet: https://zenodo.org/records/10360256
+
 
 
 # Using SAMPLER:
@@ -39,5 +42,7 @@ We have provided a Jupyter notebook provides example for computing SAMPLER repre
 
 # References
 
-[1] https://github.com/hustvl/MMIL-Transformer
+[1] https://www.biorxiv.org/content/10.1101/2023.08.01.551468v1
+
+[2] https://github.com/hustvl/MMIL-Transformer
 
