@@ -42,7 +42,7 @@ We have provided a Jupyter notebook example for computing SAMPLER represeantions
 
 # References
 
-[1] https://www.biorxiv.org/content/10.1101/2023.08.01.551468v1
+[1] https://www.sciencedirect.com/science/article/pii/S2352396423004747
 
 [2] https://github.com/hustvl/MMIL-Transformer
 
